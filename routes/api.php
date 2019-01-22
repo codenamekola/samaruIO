@@ -20,6 +20,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::apiResources(['client' => 'API\ClientController']);
 //api endpoints for user
 Route::apiResources(['user' => 'API\UserController']);
+//api endpoints for product
+Route::apiResources(['product' => 'API\ProductController']);
 //get user profile
 Route::get('profile','API\UserController@profile');
 //update user profile

@@ -44,6 +44,7 @@ const routes = [
     { path: '/products', component: Vue.component('products', require('./components/Products.vue').default) },
     { path: '/developers', component: Vue.component('developers', require('./components/Developers.vue').default) },
     { path: '/users', component: Vue.component('users', require('./components/Users.vue').default) },
+    { path: '/logcalls', component: Vue.component('logcalls', require('./components/Logcalls.vue').default) },
 ];
 
 const router = new VueRouter({
